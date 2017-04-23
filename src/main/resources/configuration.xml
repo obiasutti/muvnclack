@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuration>
+	<motionSensor>
+		<interval>1000</interval>
+		<off>false</off>
+	</motionSensor>
+	<camera>
+		<photoFolder>/home/muvnclack/photos</photoFolder>
+		<width>800</width>
+		<height>800</height>
+		<exposure>AUTO</exposure>
+		<timeout>2</timeout>
+		<maxPhotos>1000</maxPhotos>
+	</camera>
+	<notification>
+		<name>Otavio Biasutti</name>
+		<emailAddress>otavioalemanha@gmail.com</emailAddress>
+		<smtpHost>smtp.strato.de</smtpHost>
+		<smtpPort>465</smtpPort>
+		<smtpUsername>webmaster@dukkaz.com</smtpUsername>
+		<smtpPassword>deutsch15@#</smtpPassword>
+		<senderName>MuvNClack</senderName>
+		<senderEmailAddress>webmaster@dukkaz.com</senderEmailAddress>
+		<dateFormat>EEEE, d MMMM yyyy, HH:mm zzzz</dateFormat>
+		<zoneId>America/Sao_Paulo</zoneId>
+	</notification>
+</configuration>
